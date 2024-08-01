@@ -38,7 +38,7 @@ const getRoles = (req, res) => {
   }
 
   // Uncomment this code below and plug in your own alias to test the contributor role
-  /*
+  
   if (body.userDetails === 'm0110110101100101@gmail.com') {
     res.send({
       "roles": [
@@ -48,7 +48,6 @@ const getRoles = (req, res) => {
 
     return;
   }
-  */
 
   res.send({
     "roles": [
